@@ -1,5 +1,14 @@
 language: java
-script: ./gradlew check assemble
+jdk:
+- oraclejdk8
+
+branches:
+  only:
+- master
+
+script:
+  - ./gradlew check
+  - ./gradlew assemble
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
