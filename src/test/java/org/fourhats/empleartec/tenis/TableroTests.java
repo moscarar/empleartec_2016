@@ -3,6 +3,7 @@ package org.fourhats.empleartec.tenis;
 import org.fourhats.empleartec.Tablero;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 
 public class TableroTests {
