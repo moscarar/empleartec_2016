@@ -4,6 +4,9 @@ Clase TDD y BDD - Pair Programing
 # Build
 [![Build Status](https://travis-ci.org/cayrolmdq/empleartec_2016.svg?branch=master)](https://travis-ci.org/cayrolmdq/empleartec_2016)
 
+[![codecov](https://codecov.io/gh/cayrolmdq/empleartec_2016/branch/master/graph/badge.svg)](https://codecov.io/gh/cayrolmdq/empleartec_2016)
+
+
 # Requerimientos
 * 1) Descargar e instalar JDK Java 8
 * 2) Descargar en instalar GitBash (Solo para windows)
