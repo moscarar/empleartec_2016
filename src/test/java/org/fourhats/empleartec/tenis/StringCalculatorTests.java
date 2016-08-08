@@ -19,10 +19,6 @@ public class StringCalculatorTests {
         //When
         int numeroSuma = suma.toSuma(miarray);
         //Then
-        if(esperado == 0){
-            System.out.println(" ");
-        }else {
-            Assert.assertEquals("La suma " + miarray + " es " + esperado + " total", esperado, numeroSuma);
-        }
+        Assert.assertEquals("La suma " + miarray + " es " + esperado + " total", esperado, numeroSuma);
     }
 }
